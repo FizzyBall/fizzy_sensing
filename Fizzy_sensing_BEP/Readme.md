@@ -1,6 +1,3 @@
-Alle recorded data. 
-Data acqui spreadsheet
-CNN: model 36, 37, 38, 39. Data 16, 17, 18, 21
 
 
 Short summary how the repo is ingedeeld:
