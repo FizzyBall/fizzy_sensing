@@ -1,0 +1,80 @@
+============================================================
+TRAINING SETTINGS AND PARAMETERS
+============================================================
+
+Dataset Configuration:
+  Input CSV: C:/Users/Pasca/stuff/code/python/BEP/Fizzy code/CSV_files/a1 good data for RF/trained/18 features without like.csv
+  Test size: 5.0%
+
+Model Configuration:
+  Model type: Balanced RF
+  Criterion: gini
+  Max features: sqrt
+  Class weight: None
+
+Hyperparameter Search:
+  Search method: GridSearchCV
+  Number of iterations: 10
+  Scoring metric: f1_macro
+
+Cross-validation:
+  CV method: StratifiedGroupKFold
+  n_splits: 5
+
+Hyperparameter Ranges:
+  n_estimators: 100 - 500
+  max_depth: 3 - 15
+  min_samples_split: 2 - 10
+  min_samples_leaf: 1 - 5
+
+Reproducibility:
+  Random state: 42
+============================================================
+
+TRAINING RESULTS
+============================================================
+Accuracy: 0.955882
+Balanced accuracy: 0.920965
+Precision (weighted): 0.960692
+Recall (weighted): 0.955882
+F1 score (weighted): 0.957085
+Best cross-validation score: 0.871602
+
+Best hyperparameters:
+{
+  "max_depth": null,
+  "min_samples_leaf": 2,
+  "min_samples_split": 2,
+  "n_estimators": 300
+}
+
+Classes: Bounce, Drop, Idle, Kick, Lift, Roll, Shake, Spin, Tap
+
+Confusion Matrix:
+        Bounce  Drop  Idle  Kick  Lift  Roll  Shake  Spin  Tap
+Bounce       5     0     0     0     1     0      0     0    0
+Drop         1     7     0     0     0     0      0     0    0
+Idle         0     0    57     0     1     0      0     0    0
+Kick         1     0     0     8     0     0      0     0    0
+Lift         0     0     1     0    10     0      0     0    0
+Roll         0     0     0     2     0    11      0     0    0
+Shake        0     0     0     0     1     0     41     0    0
+Spin         0     0     0     0     0     0      0    13    0
+Tap          0     0     1     0     0     0      0     0   43
+
+Top 10 Feature Importances:
+acc_xyz_var: 0.035160
+gyro_xyz_spectral_centroid: 0.034047
+gyro_xy_spectral_centroid: 0.029968
+acc_xyz_MAD: 0.026646
+acc_xyz_spectral_entropy: 0.025117
+gyro_xy_spectral_entropy: 0.024332
+gyro_xy_dominant_freq: 0.024248
+acc_xyz_RMS: 0.023575
+gyro_xyz_dominant_freq: 0.023286
+acc_xyz_max: 0.021451
+
+============================================================
+Results saved to: C:/Users/Pasca/stuff/code/python/BEP/Fizzy code/CSV_files/a1 good data for RF/trained/18 Features no like\18 features without like, f1_ts5_ni10_cv5_cG_mfsq_BRF_GS_STR_properties.txt
+Settings saved to: C:/Users/Pasca/stuff/code/python/BEP/Fizzy code/CSV_files/a1 good data for RF/trained/18 Features no like\18 features without like, f1_ts5_ni10_cv5_cG_mfsq_BRF_GS_STR_settings.json
+Timestamp: 2026-06-10 13:16:04

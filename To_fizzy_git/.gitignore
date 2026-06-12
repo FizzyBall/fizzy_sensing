@@ -1,0 +1,5 @@
+/.venv
+personal_recs/
+/.pyc
+*.pyc
+__pycache__/

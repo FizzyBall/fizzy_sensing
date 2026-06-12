@@ -1,0 +1,27 @@
+{
+  "csv_file": "C:/Users/Pasca/stuff/code/python/BEP/Fizzy code/CSV_files/a1 good data for RF/raw data/Down 2 june/down_2.csv",
+  "window_size": 1.0,
+  "window_unit": "Seconds",
+  "window_overlap": 50,
+  "labeled_windows": {
+    "4": "Down",
+    "10": "Down",
+    "18": "Down",
+    "26": "Down",
+    "33": "Down",
+    "42": "Down",
+    "55": "Down",
+    "64": "Down",
+    "80": "Down",
+    "81": "Down",
+    "89": "Down",
+    "96": "Down",
+    "108": "Down",
+    "113": "Down",
+    "120": "Down",
+    "126": "Down",
+    "127": "Down",
+    "134": "Down",
+    "141": "Down"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "csv_file": "C:/Users/Pasca/stuff/code/python/BEP/Fizzy code/CSV_files/a1 good data for RF/raw data/lifts 2 june/Lift_5.csv",
+  "window_size": 1.0,
+  "window_unit": "Seconds",
+  "window_overlap": 50,
+  "labeled_windows": {
+    "10": "Lift",
+    "11": "Lift",
+    "20": "Lift",
+    "27": "Lift",
+    "28": "Lift",
+    "37": "Lift",
+    "38": "Lift",
+    "47": "Lift",
+    "48": "Lift",
+    "56": "Lift",
+    "57": "Lift",
+    "65": "Lift",
+    "66": "Lift",
+    "75": "Lift",
+    "76": "Lift",
+    "84": "Lift",
+    "85": "Lift",
+    "94": "Lift",
+    "95": "Lift",
+    "103": "Lift",
+    "104": "Lift"
+  }
+}

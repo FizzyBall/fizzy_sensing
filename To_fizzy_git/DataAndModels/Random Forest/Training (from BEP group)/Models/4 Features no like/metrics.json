@@ -1,0 +1,36 @@
+{
+  "best_params": {
+    "max_depth": 20,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 50
+  },
+  "accuracy": 0.9313725490196079,
+  "balanced_accuracy": 0.883286094492991,
+  "precision_weighted": 0.9356353006318807,
+  "recall_weighted": 0.9313725490196079,
+  "f1_weighted": 0.9323419170549584,
+  "classes": [
+    "Bounce",
+    "Drop",
+    "Idle",
+    "Kick",
+    "Lift",
+    "Roll",
+    "Shake",
+    "Spin",
+    "Tap"
+  ],
+  "test_size": 0.05,
+  "random_state": 42,
+  "n_iter": 10,
+  "cv_method": "StratifiedGroupKFold",
+  "cv_n_splits": 5,
+  "cv_n_repeats": null,
+  "criterion": "gini",
+  "max_features": "sqrt",
+  "class_weight": null,
+  "bootstrap": true,
+  "max_samples": 1.0,
+  "model_type": "Balanced RF"
+}

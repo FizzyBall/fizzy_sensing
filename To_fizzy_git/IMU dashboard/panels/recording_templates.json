@@ -1,0 +1,92 @@
+{
+  "infinite 128": {
+    "record_mode": 1,
+    "duration": 10.0,
+    "samples": 999999,
+    "delay": 2,
+    "timestamp_format": 0,
+    "relative_frame": 1,
+    "data_types": {
+      "Roll": true,
+      "Pitch": true,
+      "Yaw": true,
+      "Acc X": true,
+      "Acc Y": true,
+      "Acc Z": true,
+      "Gyro X": true,
+      "Gyro Y": true,
+      "Gyro Z": true,
+      "Acc Magnitude": true,
+      "Gyro Magnitude": true
+    }
+  },
+  "CNN": {
+    "record_mode": 0,
+    "duration": 1.5,
+    "samples": 1000,
+    "delay": 0,
+    "timestamp_format": 0,
+    "relative_frame": 1,
+    "data_types": {
+      "Roll": true,
+      "Pitch": true,
+      "Yaw": true,
+      "Acc X": true,
+      "Acc Y": true,
+      "Acc Z": true,
+      "Gyro X": true,
+      "Gyro Y": true,
+      "Gyro Z": true,
+      "Acc Magnitude": true,
+      "Gyro Magnitude": true,
+      "Motor Input": true
+    }
+  },
+  "Seconds infinite": {
+    "record_mode": 0,
+    "duration": 1000.0,
+    "samples": 1000,
+    "delay": 1,
+    "timestamp_format": 0,
+    "relative_frame": 1,
+    "data_types": {
+      "Roll": true,
+      "Pitch": true,
+      "Yaw": true,
+      "Acc X": true,
+      "Acc Y": true,
+      "Acc Z": true,
+      "Gyro X": true,
+      "Gyro Y": true,
+      "Gyro Z": true,
+      "Acc Magnitude": true,
+      "Gyro Magnitude": true,
+      "Motor Input": true
+    }
+  },
+  "lunch testing": {
+    "filename": "lunch_testing_1",
+    "folder": "lunch_testing",
+    "auto_increment": true,
+    "record_mode": 0,
+    "duration": 1000.0,
+    "samples": 10000,
+    "delay": 0,
+    "timestamp_format": 0,
+    "relative_frame": 1,
+    "data_types": {
+      "Roll": true,
+      "Pitch": true,
+      "Yaw": true,
+      "Acc X": true,
+      "Acc Y": true,
+      "Acc Z": true,
+      "Gyro X": true,
+      "Gyro Y": true,
+      "Gyro Z": true,
+      "Acc Magnitude": true,
+      "Gyro Magnitude": true,
+      "Motor Input": true
+    }
+  }
+}

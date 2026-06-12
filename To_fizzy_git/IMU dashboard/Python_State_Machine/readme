@@ -1,0 +1,34 @@
+
+
+robot_control/
+│
+├── main.py                 # Main loop (entry point)
+│
+├── core/
+│   ├── __init__.py
+│   ├── fsm.py              # State machine
+│   ├── interrupts.py       # Joystick/IMU interrupts
+│
+├── states/
+│   ├── __init__.py
+│   ├── base.py             # Base State class
+│   ├── neutral.py
+│   ├── wiggle.py
+│   ├── vibrate.py
+│   ├── balance.py
+│   ├── manual.py
+│
+├── io/
+│   ├── __init__.py
+│   ├── imu.py              # IMU processing
+│   ├── joystick.py         # Xbox thread
+│
+├── config.py               # Parameters
+│
+│
+├── fizzy_udp.py            # Setup udp onnection with the real fizzy and comment functions for motor control and data aquisition
+│
+│
+└── dashboard.py            # run in a seperate terminal (not python): Streamlit run ..\dashboard.py (choose the rigt file location)
+
+

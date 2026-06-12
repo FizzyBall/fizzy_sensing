@@ -1,0 +1,69 @@
+{
+  "Bounce": {
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.7692307692307693,
+    "support": 6.0
+  },
+  "Drop": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8.0
+  },
+  "Idle": {
+    "precision": 0.9661016949152542,
+    "recall": 0.9827586206896551,
+    "f1-score": 0.9743589743589743,
+    "support": 58.0
+  },
+  "Kick": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578947,
+    "support": 9.0
+  },
+  "Lift": {
+    "precision": 0.7692307692307693,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8333333333333334,
+    "support": 11.0
+  },
+  "Roll": {
+    "precision": 1.0,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.9166666666666666,
+    "support": 13.0
+  },
+  "Shake": {
+    "precision": 1.0,
+    "recall": 0.9761904761904762,
+    "f1-score": 0.9879518072289156,
+    "support": 42.0
+  },
+  "Spin": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13.0
+  },
+  "Tap": {
+    "precision": 1.0,
+    "recall": 0.9772727272727273,
+    "f1-score": 0.9885057471264368,
+    "support": 44.0
+  },
+  "accuracy": 0.9558823529411765,
+  "macro avg": {
+    "precision": 0.916624242047971,
+    "recall": 0.920965422402204,
+    "f1-score": 0.9161650993818138,
+    "support": 204.0
+  },
+  "weighted avg": {
+    "precision": 0.960691916923223,
+    "recall": 0.9558823529411765,
+    "f1-score": 0.957085202322568,
+    "support": 204.0
+  }
+}
