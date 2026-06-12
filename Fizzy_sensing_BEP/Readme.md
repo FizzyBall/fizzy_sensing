@@ -5,12 +5,32 @@ Directories: ./Data -> Training data, Testing data -> Each training data/ testin
 ./Random Forest/ 
 
 To make use of the written code, a set of modules are needed. These are:
-Numpy
-PyQT 
-.....
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+imbalanced-learn
+joblib
+PyQt6
+pyqtgraph
+pyjoystick
+pynput
+streamlit
+streamlit-autorefresh
+
+For the CNN, if the model only needs to be used and not trained, install only this library:
+
+pip install torch
+
+If training also needs to be done, install only this library:
+
+pip install torch --index-url https://download.pytorch.org/whl/cu121
 
 
-A short summary of the project and the code written will follow;
+
+
+
 The main goal was to add senses to Fizzy so it can react to actions that are done on the ball. For this a dashboard was created, which can now show live data readouts, orientation of the IMU, can record the data for training and testing purposes.
 It can be used to Analyse (label) data, Featurize the data by extracting given features (like mean, max and so on) for the Random Forest training, it can train the Random Forest with a lot of changable options. 
 Furthermore, a trained model can be used for live classification. This can be done for both random forest models and CNN models. Finally, a classification analysis tab is present. This is used to evaluate the trained models on a new, unseen, testset.
